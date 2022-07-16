@@ -6,6 +6,42 @@
     padding: 0;
     border: 0;
 }
+#particles-js 
+{
+   position:fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 1; 
+}
+#main
+{
+    position: relative;
+    z-index: 2;
+}
+#ava
+{
+    position: relative;
+    z-index: 2;
+}
+.foto
+{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+img
+{
+    margin-top: 400px;
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+    border: 3px solid #0F0;
+}
 body
 {
     background-color: black;
@@ -13,4 +49,18 @@ body
 canvas
 {
     display: block;
+}
+span 
+{
+    margin-top: 700px;
+    color: white;
+    position: absolute;
+}
+.text
+{
+    width: 100%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content:center;
 }
