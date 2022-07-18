@@ -3,10 +3,12 @@ var ctx = c.getContext("2d");
 
 window.onresize = function () { window.location.reload(); }
 
+
+
 c.height = window.innerHeight;
 c.width = window.innerWidth;
 
-var mass = "牡マキグナルファ系路克瑞大阪市立学鎰命科ャマ能力ϒ人は妻スティ要望通り玉宏¥サ丹谷Ѫ灯影伝鶐";
+var mass = "牡マキグナルファ系路克瑞大阪市立学鎰命科ャマ能力ϒ人は妻スティ要望通り玉宏¥サ丹谷Ѫ灯影伝鶐 ي ڴ ک م ن و ۇ ه ل  ر ز س ش غ ق ی گ ب پ. ت ث ج چ د ܓ";
 mass = mass.split("");
 
 var font_size = 15;
