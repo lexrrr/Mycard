@@ -47,6 +47,7 @@ body {
     align-items: center;
     text-align: center;
     padding-right: 100px;
+    font-weight:900;
 }
 
 .outputascii-art2 {
@@ -59,6 +60,7 @@ body {
     align-items: center;
     text-align: center;
     font-size: 6px;
+    font-weight:900;
 }
 
 .links{
@@ -71,11 +73,13 @@ body {
         padding-top: 20px;
         font-size: 6px;
         padding-right: 50px;
+        font-weight:900;
     }
 
     .outputascii-art2 {
         padding-top: 20px;
-        font-size: 2px;
+        font-size: 3px;
+        font-weight:900;
     }
 
     .command {
