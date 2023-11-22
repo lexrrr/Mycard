@@ -1,0 +1,90 @@
+body {
+    background-color: #000;
+    color: #00ff00; /* Зеленый текст */
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.console {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.command {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+.commanders{
+    color: blue;
+}
+.prompt {
+    color: #ff0000;
+}
+.moii{
+    color:cyan;
+}
+.prompt-style {
+    display: flex;
+    align-items: center;
+}
+
+.prompt-prefix {
+    color: #00ff00;
+}
+
+.outputascii-art{
+    color: #ff0000;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 100px;
+}
+
+.outputascii-art2 {
+    color: #ff0000;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 6px;
+}
+
+.links{
+    color: #00ff00;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    .outputascii-art {
+        padding-top: 20px;
+        font-size: 6px;
+        padding-right: 50px;
+    }
+
+    .outputascii-art2 {
+        padding-top: 20px;
+        font-size: 2px;
+    }
+
+    .command {
+        font-size: 10px;
+    }
+
+    .links{
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+}
